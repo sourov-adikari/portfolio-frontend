@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+}
+
+@import "./components/lightswind.css";
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("../node_modules/@vercel/fonts/geist-sans/GeistSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("../node_modules/@vercel/fonts/geist-sans/GeistSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("../node_modules/@vercel/fonts/geist-sans/GeistSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Geist Sans", sans-serif !important;
+}
+
+/* Hero social links: compact, tactile, accessible icon buttons. */
+#hero a[aria-label="Facebook"],
+#hero a[aria-label="Instagram"],
+#hero a[aria-label="WhatsApp"],
+#hero a[aria-label="GitHub"],
+#hero a[aria-label="LinkedIn"],
+#hero a[aria-label="Email"],
+#hero a[aria-label="Mail"],
+#hero a[aria-label="Social link"] {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid color-mix(in srgb, currentColor 12%, transparent);
+  border-radius: 9999px;
+  background: color-mix(in srgb, currentColor 5%, transparent);
+  transition: transform 220ms ease, color 220ms ease, background-color 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+
+#hero a[aria-label="Facebook"]::after,
+#hero a[aria-label="Instagram"]::after,
+#hero a[aria-label="WhatsApp"]::after,
+#hero a[aria-label="GitHub"]::after,
+#hero a[aria-label="LinkedIn"]::after,
+#hero a[aria-label="Email"]::after,
+#hero a[aria-label="Mail"]::after,
+#hero a[aria-label="Social link"]::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  border: 1px solid transparent;
+  transition: border-color 220ms ease, transform 220ms ease;
+}
+
+#hero a[aria-label="Facebook"]:hover,
+#hero a[aria-label="Instagram"]:hover,
+#hero a[aria-label="WhatsApp"]:hover,
+#hero a[aria-label="GitHub"]:hover,
+#hero a[aria-label="LinkedIn"]:hover,
+#hero a[aria-label="Email"]:hover,
+#hero a[aria-label="Mail"]:hover,
+#hero a[aria-label="Social link"]:hover {
+  color: var(--primary);
+  background: color-mix(in srgb, var(--primary) 10%, transparent);
+  border-color: color-mix(in srgb, var(--primary) 35%, transparent);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 22px color-mix(in srgb, var(--primary) 18%, transparent);
+}
+
+#hero a[aria-label="Facebook"]:hover::after,
+#hero a[aria-label="Instagram"]:hover::after,
+#hero a[aria-label="WhatsApp"]:hover::after,
+#hero a[aria-label="GitHub"]:hover::after,
+#hero a[aria-label="LinkedIn"]:hover::after,
+#hero a[aria-label="Email"]:hover::after,
+#hero a[aria-label="Mail"]:hover::after,
+#hero a[aria-label="Social link"]:hover::after {
+  border-color: color-mix(in srgb, var(--primary) 20%, transparent);
+  transform: scale(1.12);
+}
+
+#hero a[aria-label="Facebook"]:focus-visible,
+#hero a[aria-label="Instagram"]:focus-visible,
+#hero a[aria-label="WhatsApp"]:focus-visible,
+#hero a[aria-label="GitHub"]:focus-visible,
+#hero a[aria-label="LinkedIn"]:focus-visible,
+#hero a[aria-label="Email"]:focus-visible,
+#hero a[aria-label="Mail"]:focus-visible,
+#hero a[aria-label="Social link"]:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #hero a[aria-label] {
+    transition: none;
+  }
+}

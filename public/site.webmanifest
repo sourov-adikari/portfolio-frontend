@@ -1,0 +1,10 @@
+{
+  "name": "Sourov Chandra Adikari — Portfolio",
+  "short_name": "Sourov Adikari",
+  "description": "Portfolio of Sourov Chandra Adikari, Full Stack Web Developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0b0f",
+  "theme_color": "#0b0b0f",
+  "lang": "en"
+}
