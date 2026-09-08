@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#20152d"/><stop offset="1" stop-color="#101827"/></linearGradient></defs>
+<rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+<rect x="70" y="70" width="1060" height="660" rx="28" fill="#111827" stroke="#3b3449"/>
+<rect x="100" y="105" width="1000" height="64" rx="16" fill="#171d2b"/>
+<text x="130" y="147" fill="#f8fafc" font-family="Arial,sans-serif" font-size="28" font-weight="700">SCA Shop</text>
+<text x="880" y="145" fill="#94a3b8" font-family="Arial" font-size="16">Products   Cart   Account</text>
+<text x="110" y="235" fill="#f8fafc" font-family="Arial" font-size="34" font-weight="700">Featured products</text>
+<text x="110" y="270" fill="#94a3b8" font-family="Arial" font-size="17">Clean product discovery with a responsive storefront.</text>
+<g>
+<rect x="110" y="310" width="280" height="330" rx="20" fill="#0f172a" stroke="#283448"/>
+<rect x="135" y="335" width="230" height="180" rx="16" fill="#1e293b"/><rect x="190" y="370" width="120" height="105" rx="18" fill="#64748b"/><circle cx="250" cy="420" r="32" fill="#cbd5e1"/>
+<text x="135" y="555" fill="#f8fafc" font-family="Arial" font-size="20" font-weight="700">Minimal Headphones</text><text x="135" y="590" fill="#94a3b8" font-family="Arial" font-size="16">$89.00</text>
+<rect x="270" y="570" width="95" height="38" rx="10" fill="#334155"/><text x="288" y="595" fill="#f8fafc" font-family="Arial" font-size="14">Add to cart</text>
+</g>
+<g>
+<rect x="420" y="310" width="280" height="330" rx="20" fill="#0f172a" stroke="#283448"/>
+<rect x="445" y="335" width="230" height="180" rx="16" fill="#1e293b"/><path d="M505 475h110l-18-100H523z" fill="#94a3b8"/><path d="M535 375q25-45 50 0" fill="none" stroke="#cbd5e1" stroke-width="10"/>
+<text x="445" y="555" fill="#f8fafc" font-family="Arial" font-size="20" font-weight="700">Everyday Backpack</text><text x="445" y="590" fill="#94a3b8" font-family="Arial" font-size="16">$64.00</text>
+<rect x="580" y="570" width="95" height="38" rx="10" fill="#334155"/><text x="598" y="595" fill="#f8fafc" font-family="Arial" font-size="14">Add to cart</text>
+</g>
+<g>
+<rect x="730" y="310" width="340" height="330" rx="20" fill="#0f172a" stroke="#283448"/>
+<rect x="755" y="335" width="290" height="180" rx="16" fill="#1e293b"/><circle cx="900" cy="425" r="65" fill="#475569"/><circle cx="900" cy="425" r="45" fill="#cbd5e1"/><circle cx="900" cy="425" r="20" fill="#475569"/>
+<text x="755" y="555" fill="#f8fafc" font-family="Arial" font-size="20" font-weight="700">Smart Watch</text><text x="755" y="590" fill="#94a3b8" font-family="Arial" font-size="16">$129.00</text>
+</g>
+</svg>

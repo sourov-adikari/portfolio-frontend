@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<rect width="1200" height="800" rx="36" fill="#0b1220"/><rect x="70" y="70" width="1060" height="660" rx="26" fill="#111827" stroke="#334155"/>
+<text x="105" y="135" fill="#f8fafc" font-family="Arial" font-size="32" font-weight="700">AI Ops Dashboard</text><text x="105" y="170" fill="#94a3b8" font-family="Arial" font-size="16">Operational health &amp; product intelligence</text>
+<g><rect x="105" y="215" width="230" height="125" rx="18" fill="#172033"/><text x="130" y="250" fill="#94a3b8" font-family="Arial" font-size="14">SYSTEM HEALTH</text><text x="130" y="300" fill="#f8fafc" font-family="Arial" font-size="30" font-weight="700">99.8%</text></g>
+<g><rect x="360" y="215" width="230" height="125" rx="18" fill="#172033"/><text x="385" y="250" fill="#94a3b8" font-family="Arial" font-size="14">ACTIVE USERS</text><text x="385" y="300" fill="#f8fafc" font-family="Arial" font-size="30" font-weight="700">24.8K</text></g>
+<g><rect x="615" y="215" width="230" height="125" rx="18" fill="#172033"/><text x="640" y="250" fill="#94a3b8" font-family="Arial" font-size="14">AI REQUESTS</text><text x="640" y="300" fill="#f8fafc" font-family="Arial" font-size="30" font-weight="700">184K</text></g>
+<g><rect x="870" y="215" width="225" height="125" rx="18" fill="#172033"/><text x="895" y="250" fill="#94a3b8" font-family="Arial" font-size="14">ALERTS</text><text x="895" y="300" fill="#f8fafc" font-family="Arial" font-size="30" font-weight="700">12</text></g>
+<rect x="105" y="380" width="640" height="285" rx="20" fill="#0f172a" stroke="#26364b"/><text x="135" y="420" fill="#f8fafc" font-family="Arial" font-size="18" font-weight="700">System performance</text>
+<path d="M140 590 L210 540 L280 555 L350 480 L420 510 L490 450 L560 470 L630 420 L710 445" fill="none" stroke="#94a3b8" stroke-width="5"/><path d="M140 610h570M140 540h570M140 470h570" stroke="#1e293b"/>
+<rect x="775" y="380" width="320" height="285" rx="20" fill="#0f172a" stroke="#26364b"/><text x="805" y="420" fill="#f8fafc" font-family="Arial" font-size="18" font-weight="700">Recent alerts</text>
+<g fill="#94a3b8" font-family="Arial" font-size="14"><text x="805" y="465">Latency threshold exceeded</text><text x="805" y="515">Worker restarted successfully</text><text x="805" y="565">Model usage spike detected</text><text x="805" y="615">All services operational</text></g>
+</svg>
